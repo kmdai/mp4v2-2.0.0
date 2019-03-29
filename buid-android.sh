@@ -13,7 +13,7 @@ export CFLAGS="-fPIE -fPIC"
 echo $STRIP
 export CXXFLAGS="-std=c++03"
 export LDFLAGS="-pie"
-prefix_dir=/Users/bilibili/opensource/mp4v2-2.0.0/android-arm
+prefix_dir=`pwd`/android-arm
 
 ./configure --disable-debug \
 --disable-util \
